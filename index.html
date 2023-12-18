@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GURU</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="GURU" name="keywords">
+    <meta content="GURU" name="description">
+    <!-- Normalize Styles -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/Guru Logo.png" type="image/svg+xml">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg  navbar-light py-3 py-lg-0 px-lg-5" style="background-color: black; ">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5" style="color: maroon;"><img src="img/logo.png" alt="img" id="logo"><span style="margin-left: -100px;">G</span><span style="color: white;">U</span>R<span style="color: white;">U</span></h1>
+        </a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" style="background-color: black;  text-align: center;" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="tel: +234 80-970-3045" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid  d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh; background-color: black;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100  shadow-sm" src="img/welcome 2.png" alt="img">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase  mb-2" style="-webkit-text-stroke: 2px maroon; color: black;" >Bolu Ikuerowo</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Back End Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="#" class="btn btn-outline-light mr-5 CV" onclick="window.open('Ikuerowo Boluwatife.pdf')">Download CV</a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase " style="-webkit-text-stroke: 1px #dee2e6; opacity: .2; color: transparent;">About</h1>
+                <h1 class="position-absolute text-uppercase "x style="color: maroon;">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/thinking 2.png" alt="img" style="height: 650px; width: 100px;">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4" style="color: white;">Web Designer & Web Developer</h3>
+                    <p>I play crucial role in the creation of modern websites and online platforms
+                        and I possess unique combinations of technical and skills and creative skills 
+                        to succeed in this field.   
+                    </p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Name: <span style="color: white;">Bolu Ikuerowo</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Birthday: <span style="color: white;">13 May 2002</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Degree: <span style="color: white;">BSC in Computer Science</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Experience: <span style="color: white;">4 Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Phone: <span style="color: white;">+234 801 4558 4399</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Email: <span style="color: white;">ikuerowob@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Address: <span style="color: white;">Ikorodu, Lagos, Nigeria</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 style="color: maroon;">Freelance: <span style="color: white;">Available</span></h6></div>
+                    </div>
+                    <a href="tel: +234 80-970-3045" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase" style="-webkit-text-stroke: 1px #dee2e6; opacity: .2; color: transparent;">Skills</h1>
+                <h1 class="position-absolute text-uppercase" style="color: maroon;">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold" style="color: white;">HTML</h6>
+                            <h6 class="font-weight-bold" style="color: white;">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold" style="color: white;">CSS</h6>
+                            <h6 class="font-weight-bold" style="color: white;">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold" style="color: white;">JavaScript</h6>
+                            <h6 class="font-weight-bold" style="color: white;">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold" style="color: white;">Bootstrap Css</h6>
+                            <h6 class="font-weight-bold" style="color: white;">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold" style="color: white;">Github</h6>
+                            <h6 class="font-weight-bold" style="color: white;">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold" style="color: white;">React Js</h6>
+                            <h6 class="font-weight-bold" style="color: white;">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase" style="-webkit-text-stroke: 1px #dee2e6; opacity: .2; color: transparent;">Service</h1>
+                <h1 class="position-absolute text-uppercase" style="color: maroon;">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon  text-white mr-3" style="background-color: maroon;"></i>
+                        <h4 class="font-weight-bold m-0" style="color: white;">Web Design</h4>
+                    </div>
+                    <p>"Crafting digital masterpieces with every click and pixel, this web designer weaves stunning visual stories
+                        that come alive on the screen"</p>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon text-white mr-3"  style="background-color: maroon;"></i>
+                        <h4 class="font-weight-bold m-0" style="color: white;">Web Development</h4>
+                    </div>
+                    <p>"Bringing digital dreams to life, one line of code at a time- thats our super power"</p>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon  text-white mr-3" style="background-color: maroon;"></i>
+                        <h4 class="font-weight-bold m-0" style="color: white;">Web Hosting</h4>
+                    </div>
+                    <p>"Bringing imaginations to life, one push at time, one file at a time- thats the magic we produce"</p>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon text-white mr-3"  style="background-color: maroon;"></i>
+                        <h4 class="font-weight-bold m-0" style="color: white;">Web Content Writer</h4>
+                    </div>
+                    <p>"Crafting words that captivate and compel, a web content writer weaves a digital world of 
+                        wonder and winsome prose, where every click leads to discovery and every scroll unlocks a new story"</p>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon text-white mr-3"  style="background-color: maroon;"></i>
+                        <h4 class="font-weight-bold m-0" style="color: white;">Web Management</h4>
+                    </div>
+                    <p>"Mastering the digital realm with a keen eye for design, a savy mind for strategy, and 
+                        the finesse of a web management guru"</p>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio" style="text-align: center;">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase " style="-webkit-text-stroke: 1px #dee2e6; opacity: .2; color: transparent;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase" style="color: maroon;">My Portfolio</h1>
+            </div>
+            <section class="portfolio">
+                <div class="sites">
+                    <div class="sites-cont">
+                        <img src="images/1-Up.png" alt="img">
+                        <h2>UpConstruction</h2>
+                        <div class="visit">
+                            <a href="https://github.com/codegenius13/"class="visit-btn git" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" class="visit-btn video-dem git"><i class="fa fa-video-camera"></i></a>
+                            <a href="https://codegenius13.github.io/UpConstruction/" class="visit-btn" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid-preview">
+                    <div class="vid-play">
+                        <a href="#" class="fa fa-times vid-rem"></a>
+                        <video autoplay muted loop plays-inline class="back-video">
+                            <source src="images/UpConstruction.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="sites">
+                    <div class="sites-cont">
+                        <img src="images/1-New.png" alt="img">
+                        <h2>New Dawn Ultrasound</h2>
+                        <div class="visit">
+                            <a href="https://github.com/codegenius13/"class="visit-btn git" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" class="visit-btn git video-dem-two"><i class="fa fa-video-camera"></i></a>
+                            <a href="http://njkoolkjmnjhk.000webhostapp.com/new%20dawn/index.php" class="visit-btn" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid-preview-two">
+                    <div class="vid-play">
+                        <a href="#" class="fa fa-times vid-rem-two"></a>
+                        <video autoplay muted loop plays-inline class="back-video">
+                            <source src="images/New-Dawn.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="sites">
+                    <div class="sites-cont">
+                        <img src="images/1-Flo.png" alt="img">
+                        <h2>Floras Interior</h2>
+                        <div class="visit">
+                            <a href="https://github.com/codegenius13/"class="visit-btn git" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" class="visit-btn git video-dem-three"><i class="fa fa-video-camera"></i></a>
+                            <a href="https://codegenius13.github.io/floras/" class="visit-btn" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid-preview-three">
+                    <div class="vid-play">
+                        <a href="#" class="fa fa-times vid-rem-three"></a>
+                        <video autoplay muted loop plays-inline class="back-video">
+                            <source src="images/Flora's.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="sites">
+                    <div class="sites-cont">
+                        <img src="images/1-Desq.png" alt="img">
+                        <h2>Desq Media</h2>
+                        <div class="visit">
+                            <a href="https://github.com/codegenius13/"class="visit-btn git" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" class="visit-btn git video-dem-four"><i class="fa fa-video-camera"></i></a>
+                            <a href="https://codegenius13.github.io/Media-repo/" class="visit-btn" target="_blank"><i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid-preview-four">
+                    <div class="vid-play">
+                        <a href="#" class="fa fa-times vid-rem-four"></a>
+                        <video autoplay muted loop plays-inline class="back-video">
+                            <source src="images/Desq.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <a href="#" class="view">View More Projects &#8599;</a>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase " style="-webkit-text-stroke: 1px #dee2e6; opacity: .2; color: transparent;">Review</h1>
+                <h1 class="position-absolute text-uppercase " style="color: maroon;">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left mb-4" style="color: maroon;"></i>
+                            <h4 class="font-weight-light mb-4" style="color: white;">I recently enjoyed the pleasure of working with GURU a really talented
+                            rising star programmer. I was facing some issues showcasing my works to world but
+                            GURU really helped by creating a portfolio to showcase my works on a smooth, efficient and top quality website.
+                            </h4>
+                            <h5 class="font-weight-bold m-0">New Dawn Ultrasound Diagnostic Center</h5>
+                            <span>Doctor Akinnuoye Olufemi</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left mb-4" style="color: maroon;"></i>
+                            <h4 class="font-weight-light mb-4" style="color: white;">GURU really had a welcoming and refreshing spirit and was fun working with him. through his services rendered by creating
+                            a really efficient website, we were able to solve our problems.
+                            </h4>                         
+                            <h5 class="font-weight-bold m-0">Arc Goke Ikuerowo and Associates</h5>
+                            <span>Arc Olamigke Ikuerowo</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left mb-4" style="color: maroon;"></i>
+                            <h4 class="font-weight-light mb-4" style="color: white;">GURU was given a five star by our company because of his proficient and professional approach 
+                            to the challenge given to him. By creating an flexible website he was able to solve our problem of workload.
+                            thank you GURU!
+                            </h4>                           
+                            <h5 class="font-weight-bold m-0">UpConstruction</h5>
+                            <span>Chief Exeutive Officer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase " style="-webkit-text-stroke: 1px #dee2e6; opacity: .2; color: transparent;">Contact</h1>
+                <h1 class="position-absolute text-uppercase" style="color: maroon;">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center" style="position: relative;">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div class="preloader-two">
+                            <img src="img/logo.png" alt="img" id="contact-logo">
+                        </div>
+                        <form action="" name="sentMessage" id="contactForm" method="POST" autocomplete="">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input name="name" type="text" class="form-control p-4" id="name" placeholder="Your Name"/>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input name="email" type="email" class="form-control p-4" id="email" placeholder="Your Email"/>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input name="tel" type="tel" class="form-control p-4" id="phone" placeholder="Phone Number"/>
+                            </div>
+                            <div class="control-group">
+                                <textarea name="comment" class="form-control py-3 px-4" rows="5" id="comment" placeholder="How can I help you"></textarea>
+                            </div>
+                            <div class="button-area">
+                                <button name="submit" class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://wa.me/0814-558-4399" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://mobile.facebook.com/nt/screen/?params=%7B%7D&path=%2Fpages%2Fnt_launchpoint_redesign%2Fhomescreen%2Fmtouch%2F&paipv=0&eav=AfbVE1hVJNY5Tk_YUlPEvc_-2zitowF7ruczAz7EfNi-jGlO3RNTbsWftZ3Nxs6rq3E" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/boluwatife-ikuerowo-80490226b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://www.instagram.com/this_the_guru_13/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social" href="https://github.com/codegenius13/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">GURU</a>. All Rights Reserved &reg;. Designed by <a class="text-white font-weight-bold" href="#">GURU</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn px-0 back-to-top" style=" color: maroon; border: 1px solid maroon;"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+     <!-- Template Javascript -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/contact.js"></script>
+</body>
+</html>
